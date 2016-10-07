@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+.stem {
+	width: 6px;
+	height: 300px;
+	background: #83c973;
+	top: 190px;
+	left: 560px;
+	position: absolute;
+	transform: rotate(175deg);
+}
+.vase {
+	left: 500px;
+	position: absolute;
+	top: 250px;
+	opacity: 0.7;
+
+}
+.mat {
+	
+	width:600px;
+	height:500px;
+	left: 60px;
+	position: absolute;
+	background: #f241b5;
+	-webkit-clip-path: polygon(32% 86%, 100% 86%, 95% 100%, 0 100%);
+	clip-path: polygon(32% 86%, 100% 86%, 95% 100%, 0 100%);
+
+}
+.circle {
+	width: 150px;
+	height: 150px;
+	top:300px;
+	left: 250px;
+	position: absolute;
+	background: #f6f4f6;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+}
+.pineapple {
+   width: 126px;
+   height: 180px;
+   top: 300px;
+   left: 300px;
+   position: absolute;
+   background: rgba(244,255,92,1);
+	background: -moz-linear-gradient(left, rgba(244,255,92,1) 0%, rgba(117,137,12,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(244,255,92,1)), color-stop(100%, rgba(117,137,12,1)));
+	background: -webkit-linear-gradient(left, rgba(244,255,92,1) 0%, rgba(117,137,12,1) 100%);
+	background: -o-linear-gradient(left, rgba(244,255,92,1) 0%, rgba(117,137,12,1) 100%);
+	background: -ms-linear-gradient(left, rgba(244,255,92,1) 0%, rgba(117,137,12,1) 100%);
+	background: linear-gradient(to right, rgba(244,255,92,1) 0%, rgba(117,137,12,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4ff5c', endColorstr='#75890c', GradientType=1 );
+ 
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
+#bowl {
+   top: 60px;
+   position: absolute;
+   display:block;
+   width: 126px;
+   height: 150px;
+   background-color: #59ae46;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+#neck {
+	left:52px;
+	position:absolute;
+	width: 25px;
+	height: 100px;
+	background: #59ae46;
+}
+
+					
