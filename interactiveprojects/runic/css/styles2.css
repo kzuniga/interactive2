@@ -1,0 +1,269 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ba9d66;
+}
+
+#a {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+#b {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+
+#c {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+
+#d {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+
+#e {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+
+#f {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+
+#g {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+#h {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+#i {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+#j {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+#k {
+	position: relative;
+	top: 150px;
+	float: left;
+}
+#l {
+	position: relative;
+	top: 300px;
+	float: left;
+}
+#m {
+	position: relative;
+	top: 300px;
+	float: left;
+}
+#n {
+	position: relative;
+	top: 300px;
+	float: left;
+}
+#o {
+	position: relative;
+	top: 300px;
+	float: left;
+}
+#p {
+	position: relative;
+	top: 300px;
+	float: left;
+}
+#q {
+	position: relative;
+	top: 300px;
+	float: left;
+}
+#r {
+	position: relative;
+	top: 300px;
+	float: left;
+}
+#s {
+	position: relative;
+	top: 300px;
+	float: left;
+}
+#t {
+	position: relative;
+	top: 450px;
+	float: left;
+}
+
+#u {
+	position: relative;
+	top: 450px;
+	float: left;
+}
+
+#v {
+	position: relative;
+	top: 450px;
+	float: left;
+}
+
+#w {
+	position: relative;
+	top: 450px;
+	float: left;
+}
+
+#x {
+	position: relative;
+	top: 450px;
+	float: left;
+}
+
+#y {
+	position: relative;
+	top: 450px;
+	float: left;
+}
+
+#z {
+	position: relative;
+	top: 450px;
+	float: left;
+}
+
+.one {
+	width: 4px;
+	height: 113px;
+	background: black;
+	position: absolute;
+	transform: rotate(20deg);
+}
+
+.two {
+	width: 4px;
+	height: 105px;
+	background: black;
+	position: absolute;
+}
+
+.three {
+	width: 4px;
+	height: 50px;
+	background: black;
+	position: absolute;
+	transform: rotate(-405deg);
+}
+
+.four {
+	width: 4px;
+	height: 50px;
+	background: black;
+	position: absolute;
+	transform: rotate(405deg);
+}
+.five {
+	width: 4px;
+	height: 26px;
+	background: black;
+	position: absolute;
+	transform: rotate(90deg);
+}
+.six {
+	width: 4px;
+	height: 74px;
+	background: black;
+	position: absolute;
+	transform: rotate(-405deg);
+}
+.seven {
+	width: 4px;
+	height: 74px;
+	background: black;
+	position: absolute;
+	transform: rotate(405deg);
+}
+.eight {
+	width: 4px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	transform: rotate(110deg);
+}
+.nine {
+	width: 4px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	transform: rotate(70deg);
+}
+.ten {
+	width: 4px;
+	height: 15px;
+	background: black;
+	position: absolute;
+	transform: rotate(90deg);
+}
+.eleven {
+	width: 4px;
+	height: 45px;
+	background: black;
+	position: absolute;
+	transform: rotate(90deg);
+}
+.twelve {
+	width: 4px;
+	height: 20px;
+	background: black;
+	position: absolute;
+}
+.thirteen {
+	width: 4px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	transform: rotate(65deg);
+}
+.fourteen {
+	width: 4px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	transform: rotate(120deg);
+}
+.fifteen {
+	width: 4px;
+	height: 70px;
+	background: black;
+	position: absolute;
+	transform: rotate(90deg);
+}
+.sixteen {
+	width: 4px;
+	height: 70px;
+	background: black;
+	position: absolute;
+}
+.seventeen {
+	width: 4px;
+	height: 113px;
+	background: black;
+	position: absolute;
+	transform: rotate(160deg);
+}
