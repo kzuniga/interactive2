@@ -5,76 +5,235 @@
 body {
 	background: #ba9d66;
 }
-
-#lettera {
-	width: 50px;
-	height: 110px;
-	top: 90px;
-	position: absolute;
+#link{
+	position: relative;
+	left: 1150px;
+	top: 70px;
+	float: left;
+}
+a {
+    color: black;
+}
+a:link {
+    text-decoration: none;
 }
 
-.aleftline {
-	width: 5px;
-	height: 105px;
-	background: red;
-	top: 80px;
-	left: 290px;
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#r {
+	display:inline-block
+}
+#r {
+	display:block;
+	position:relative;
+}
+
+h2#r,
+#r.inline {
+	display:inline-block
+}
+h1,p,h2{
+  color:#FFF;
+}
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+#r:hover,
+#r:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#u {
+	display:inline-block
+}
+#u {
+	display:block;
+	position:relative;
+}
+
+h2#u,
+#u.inline {
+	display:inline-block
+}
+h1,p,h2{
+  color:#FFF;
+}
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+#u:hover,
+#u:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+#r {
+	position: relative;
+	top: 100px;
+	right: 500px;
+	float: left;
+}
+
+#u {
+	position: relative;
+	top: 100px;
+	right: 550px;
+	float: left;
+}
+
+.one {
+	width: 4px;
+	height: 113px;
+	background: black;
 	position: absolute;
 	transform: rotate(20deg);
 }
 
-#letterr {
-	width: 50px;
-	height: 110px;
-	top: 200px;
-	position: absolute;
-}
-
-.rrightline {
-	width: 5px;
+.two {
+	width: 4px;
 	height: 105px;
-	background: #000000;
-	top: 100px;
-	left: 300px;
+	background: black;
 	position: absolute;
 }
 
-.rleftline {
-	width: 5px;
-	height: 105px;
-	background: #000000;
-	top: 100px;
-	left: 290px;
-	position: absolute;
-}
-
-.rlinedown {
-	width: 5px;
+.three {
+	width: 4px;
 	height: 50px;
-	background: #000000;
-	top: 94px;
-	left: 315px;
+	background: black;
 	position: absolute;
-	transform: rotate(-400deg);
+	transform: rotate(-405deg);
 }
 
-.rlineup {
-	width: 5px;
+.four {
+	width: 4px;
 	height: 50px;
-	background: #000000;
-	top: 127px;
-	left: 315px;
+	background: black;
 	position: absolute;
-	transform: rotate(400deg);
+	transform: rotate(405deg);
 }
-rlinedown {
-	width: 5px;
-	height: 50px;
-	background: #000000;
-	top: 94px;
-	left: 315px;
+.five {
+	width: 4px;
+	height: 26px;
+	background: black;
 	position: absolute;
-	transform: rotate(-400deg);
+	transform: rotate(90deg);
 }
-
-
+.six {
+	width: 4px;
+	height: 74px;
+	background: black;
+	position: absolute;
+	transform: rotate(-405deg);
+}
+.seven {
+	width: 4px;
+	height: 74px;
+	background: black;
+	position: absolute;
+	transform: rotate(405deg);
+}
+.eight {
+	width: 4px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	transform: rotate(110deg);
+}
+.nine {
+	width: 4px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	transform: rotate(70deg);
+}
+.ten {
+	width: 4px;
+	height: 15px;
+	background: black;
+	position: absolute;
+	transform: rotate(90deg);
+}
+.eleven {
+	width: 4px;
+	height: 45px;
+	background: black;
+	position: absolute;
+	transform: rotate(90deg);
+}
+.twelve {
+	width: 4px;
+	height: 20px;
+	background: black;
+	position: absolute;
+}
+.thirteen {
+	width: 4px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	transform: rotate(65deg);
+}
+.fourteen {
+	width: 4px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	transform: rotate(120deg);
+}
+.fifteen {
+	width: 4px;
+	height: 70px;
+	background: black;
+	position: absolute;
+	transform: rotate(90deg);
+}
+.sixteen {
+	width: 4px;
+	height: 70px;
+	background: black;
+	position: absolute;
+}
+.seventeen {
+	width: 4px;
+	height: 113px;
+	background: black;
+	position: absolute;
+	transform: rotate(160deg);
+}
