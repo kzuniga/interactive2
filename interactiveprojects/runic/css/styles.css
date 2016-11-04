@@ -14,13 +14,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4154', end
 input {
 	display: none;
 }
-#link{
-	position: absolute;
-	left: 1200px;
-	top: 50px;
-	float: left;
-	background-color: yellow;
-}
 a {
     color: black;
 }
@@ -40,16 +33,16 @@ a:active {
     text-decoration: underline;
 }
 
-#r {
+#rb {
 	display:inline-block
 }
-#r {
+#rb {
 	display:block;
 	position:relative;
 }
 
-h2#r,
-#r.inline {
+h2#rb,
+#rb.inline {
 	display:inline-block
 }
 h1,p,h2{
@@ -68,8 +61,8 @@ h1,p,h2{
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-#r:hover,
-#r:focus {
+#rb:hover,
+#rb:focus {
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
 	-webkit-transform-origin:50% 50%;
@@ -77,20 +70,20 @@ h1,p,h2{
 	-webkit-animation-timing-function: linear;
 }
 
-#r .two {
+#rb .two {
 	transform-origin:0px 100px;
 	transition: all 1s;
 }
-#r .three {
+#rb .three {
 	transition: all 1s;
 }
-#r .four {
+#rb .four {
 
 	transition: all 1s;
 
 }
 
-#testa:checked + #r:hover {
+#testa:checked + #rb:hover {
 	-webkit-animation-name: none;
 }
 
@@ -107,16 +100,16 @@ h1,p,h2{
 	transform: rotate(443deg)  translate(40px);
 }
 
-#u {
+#ub {
 	display:inline-block
 }
-#u {
+#ub {
 	display:block;
 	position:relative;
 }
 
-h2#u,
-#u.inline {
+h2#ub,
+#ub.inline {
 	display:inline-block
 }
 h1,p,h2{
@@ -137,8 +130,8 @@ h1,p,h2{
 }
 
 
-#u:hover,
-#u:focus {
+#ub:hover,
+#ub:focus {
     transform-origin: 0px 100px;
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
@@ -146,20 +139,20 @@ h1,p,h2{
 	-webkit-animation-timing-function: linear;
 }
 
-#u .two {
+#ub .two {
 	transform-origin:0px 100px;
 	transition: all 1s;
 }
-#u .sixteen{
+#ub .sixteen{
 	transition: all 1s;
 }
-#u .four {
+#ub .four {
 
 	transition: all 1s;
 
 }
 
-#testb:checked + #u:hover {
+#testb:checked + #ub:hover {
 	-webkit-animation-name: none;
 }
 
@@ -174,16 +167,16 @@ h1,p,h2{
 	transform: rotate(-75deg)  translate(-55px);
 }
 
-#n {
+#nb {
 	display:inline-block
 }
-#n {
+#nb {
 	display:block;
 	position:relative;
 }
 
-h2#n,
-#n.inline {
+h2#nb,
+#nb.inline {
 	display:inline-block
 }
 h1,p,h2{
@@ -202,26 +195,26 @@ h1,p,h2{
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-#n:hover,
-#n:focus {
+#nb:hover,
+#nb:focus {
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
 	-webkit-transform-origin:50% 50%;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-#n .two {
+#nb .two {
 	transform-origin:0px 100px;
 	transition: all 1s;
 }
 
-#n .three {
+#nb .three {
 
 	transition: all 1s;
 
 }
 
-#testc:checked + #n:hover {
+#testc:checked + #nb:hover {
 	-webkit-animation-name: none;
 }
 
@@ -234,16 +227,16 @@ h1,p,h2{
 }
 
 
-#i {
+#ib {
 	display:inline-block
 }
-#i {
+#ib {
 	display:block;
 	position:relative;
 }
 
-h2#i,
-#i.inline {
+h2#ib,
+#ib.inline {
 	display:inline-block
 }
 h1,p,h2{
@@ -262,8 +255,8 @@ h1,p,h2{
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-#i:hover,
-#i:focus {
+#ib:hover,
+#ib:focus {
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
 	-webkit-transform-origin:50% 50%;
@@ -271,17 +264,17 @@ h1,p,h2{
 	-webkit-animation-timing-function: linear;
 }
 
-#i .two {
+#ib .two {
 	transform-origin:0px 100px;
 	transition: all 1s;
 }
-#i .ten {
+#ib .ten {
 
 	transition: all 1s;
 
 }
 
-#testd:checked + #i:hover {
+#testd:checked + #ib:hover {
 	-webkit-animation-name: none;
 }
 
@@ -295,17 +288,17 @@ h1,p,h2{
 
 
 
-#c {
+#cb {
 	display:inline-block
 }
-#c {
+#cb {
 	display:block;
 	position:relative;
 
 }
 
-h2#c,
-#c.inline {
+h2#cb,
+#cb.inline {
 	display:inline-block
 }
 h1,p,h2{
@@ -324,29 +317,29 @@ h1,p,h2{
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-#c:hover, 
-#c:focus {
+#cb:hover, 
+#cb:focus {
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
 	-webkit-transform-origin:50% 50%;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
-#c .two {
+#cb .two {
 	transform-origin:0px 100px;
 	transition: all 1s;
 }
-#c .three {
+#cb .three {
 
 	transition: all 1s;
 
 }
-#c .four {
+#cb .four {
 
 	transition: all 1s;
 }
 
-#teste:checked + #c:hover {
+#teste:checked + #cb:hover {
 	-webkit-animation-name: none;
 }
 
@@ -368,35 +361,35 @@ h1,p,h2{
 	margin-left: 500px;
 	transform: scale(4);
 }
-#r {
+#rb {
 	position: relative;
 	width: 50px;
     height: 107px;
 	float: left;
 
 }
-#u {
+#ub {
 	position: relative;
 	width: 50px;
     height: 107px;
 	left: 20px;
 	float: left;
 }
-#n {
+#nb {
 	position: relative;
 	width: 50px;
     height: 107px;
 	left: 40px;
 	float: left;
 }
-#i {
+#ib {
 	position: relative;
 	width: 18px;
     height: 107px;
 	left: 60px;
 	float: left;
 }
-#c {
+#cb {
 	position: relative;
 	width: 50px;
     height: 107px;
@@ -405,7 +398,7 @@ h1,p,h2{
 }
 
 #letters{
-	width: 1800px;
+	width: 1000px;
 	height: 3000px;
  	position: relative;
  	margin-top: -500px;
@@ -467,6 +460,267 @@ h1,p,h2{
 	float: left;
 	position: absolute;
 	transform: rotate(70deg) scale(3);
+}
+
+#specimen {
+	width: 1000px;
+	height: 500px;
+	margin-top: 1700px;
+	margin-left: 50px;
+	float: left;
+	position: relative;
+}
+
+#a {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#b {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+
+#c {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top:50px;
+	margin-left:50px;
+	float: left;
+	background-color: yellow;
+}
+
+#d {
+	width: 70px;
+	height: 105px;
+	position: relative;
+	margin-top:50px;
+	margin-left:50px;
+	float: left;
+	background: yellow;
+}
+
+#e {
+	width: 70px;
+	height: 105px;
+	position: relative;
+	margin-top:50px;
+	margin-left:50px;
+	float: left;
+	background-color: yellow;
+}
+
+#f {
+	width: 70px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+
+
+#g {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#h {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#i {
+	width: 20px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#j {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+	
+}
+#k {
+	width: 70px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+	
+}
+#l {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#m {
+	width: 70px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#n {
+	width: 70px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#o {
+	width: 100px;
+	height: 105px;
+	position: relative;
+	margin-top:50px;
+	margin-left:50px;
+	float: left;
+	background-color: yellow;
+	
+}
+#p {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#q {
+	width: 110px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+	
+}
+#r {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+	
+}
+#s {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+#t {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+
+#u {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+
+#v {
+	width: 100px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+
+#w {
+	position: relative;
+	width: 70px;
+	height: 110px;
+	top: 50px;
+	left: 50px;
+	float: left;
+	background-color: yellow;
+}
+
+#x {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 70px;
+	float: left;
+	background-color: yellow;
+}
+
+#y {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
+}
+
+#z {
+	width: 50px;
+	height: 105px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+	background-color: yellow;
 }
 
 
