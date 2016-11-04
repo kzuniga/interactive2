@@ -3,13 +3,23 @@
 }
 
 body {
-	background: #ba9d66;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f4154+0,9f8771+2,9f8771+19,9e8066+40,4f4a51+76,4f4154+100 */
+background: #4f4154; /* Old browsers */
+background: -moz-linear-gradient(top,  #4f4154 0%, #9f8771 2%, #9f8771 19%, #9e8066 40%, #4f4a51 76%, #4f4154 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #4f4154 0%,#9f8771 2%,#9f8771 19%,#9e8066 40%,#4f4a51 76%,#4f4154 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #4f4154 0%,#9f8771 2%,#9f8771 19%,#9e8066 40%,#4f4a51 76%,#4f4154 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4154', endColorstr='#4f4154',GradientType=0 ); /* IE6-9 */
+
+}
+input {
+	display: none;
 }
 #link{
-	position: relative;
-	left: 1150px;
-	top: 70px;
+	position: absolute;
+	left: 1200px;
+	top: 50px;
 	float: left;
+	background-color: yellow;
 }
 a {
     color: black;
@@ -67,6 +77,36 @@ h1,p,h2{
 	-webkit-animation-timing-function: linear;
 }
 
+#r .two {
+	transform-origin:0px 100px;
+	transition: all 1s;
+}
+#r .three {
+	transition: all 1s;
+}
+#r .four {
+
+	transition: all 1s;
+
+}
+
+#testa:checked + #r:hover {
+	-webkit-animation-name: none;
+}
+
+#testa:checked + label .two {
+	transform: rotate(86deg);
+}
+#testa:checked + label .three {
+	transform: rotate(-443deg) translate(-75px);
+}
+#testa:checked + label .three2 {
+	transform: rotate(-443deg) translate(-8px);
+}
+#testa:checked + label .four {
+	transform: rotate(443deg)  translate(40px);
+}
+
 #u {
 	display:inline-block
 }
@@ -95,13 +135,43 @@ h1,p,h2{
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+
 #u:hover,
 #u:focus {
+    transform-origin: 0px 100px;
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
-	-webkit-transform-origin:50% 50%;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
+}
+
+#u .two {
+	transform-origin:0px 100px;
+	transition: all 1s;
+}
+#u .sixteen{
+	transition: all 1s;
+}
+#u .four {
+
+	transition: all 1s;
+
+}
+
+#testb:checked + #u:hover {
+	-webkit-animation-name: none;
+}
+
+#testb:checked + label .two {
+	transform: rotate(86deg);
+}
+
+#testb:checked + label .four {
+	transform: rotate(445deg)  translate(8px);
+}
+#testb:checked + label .sixteen {
+	transform: rotate(-75deg)  translate(-55px);
 }
 
 #n {
@@ -140,6 +210,30 @@ h1,p,h2{
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
+#n .two {
+	transform-origin:0px 100px;
+	transition: all 1s;
+}
+
+#n .three {
+
+	transition: all 1s;
+
+}
+
+#testc:checked + #n:hover {
+	-webkit-animation-name: none;
+}
+
+#testc:checked + label .two {
+	transform: rotate(86deg);
+}
+
+#testc:checked + label .three {
+	transform: rotate(-460deg) translate(-75px);
+}
+
+
 #i {
 	display:inline-block
 }
@@ -176,12 +270,38 @@ h1,p,h2{
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
+
+#i .two {
+	transform-origin:0px 100px;
+	transition: all 1s;
+}
+#i .ten {
+
+	transition: all 1s;
+
+}
+
+#testd:checked + #i:hover {
+	-webkit-animation-name: none;
+}
+
+#testd:checked + label .two {
+	transform: rotate(86deg);
+}
+
+#testd:checked + label .ten {
+	transform: rotate(-460deg) translate(-96px);
+}
+
+
+
 #c {
 	display:inline-block
 }
 #c {
 	display:block;
 	position:relative;
+
 }
 
 h2#c,
@@ -204,7 +324,7 @@ h1,p,h2{
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
 }
-#c:hover,
+#c:hover, 
 #c:focus {
 	-webkit-animation-name: spaceboots;
 	-webkit-animation-duration: 0.8s;
@@ -212,48 +332,148 @@ h1,p,h2{
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
+#c .two {
+	transform-origin:0px 100px;
+	transition: all 1s;
+}
+#c .three {
+
+	transition: all 1s;
+
+}
+#c .four {
+
+	transition: all 1s;
+}
+
+#teste:checked + #c:hover {
+	-webkit-animation-name: none;
+}
+
+#teste:checked + label .two {
+	transform: rotate(-86deg);
+}
+#teste:checked + label .three {
+	transform: rotate(-87deg) translate(-76px);
+}
+#teste:checked + label .four {
+	transform: rotate(86deg) translate(15px);
+}
+
 #runic {
 	position: relative;
-	top: 5px;
-	right: 25px;
-	float: left;
+	width: 300px;
+	height: 105px;
+	margin-top: 250px;
+	margin-left: 500px;
+	transform: scale(4);
 }
 #r {
 	position: relative;
-	top: 50px;
-	right: 500px;
+	width: 50px;
+    height: 107px;
 	float: left;
-}
 
+}
 #u {
 	position: relative;
-	top: 50px;
-	left: 200px;
+	width: 50px;
+    height: 107px;
+	left: 20px;
 	float: left;
 }
 #n {
 	position: relative;
-	top: 50px;
-	left: 190px;
+	width: 50px;
+    height: 107px;
+	left: 40px;
 	float: left;
 }
 #i {
 	position: relative;
-	top: 50px;
-	right: 200px;
+	width: 18px;
+    height: 107px;
+	left: 60px;
 	float: left;
 }
 #c {
 	position: relative;
-	top: 50px;
-	left : 460px;
+	width: 50px;
+    height: 107px;
+	left : 80px;
 	float: left;
 }
+
+#letters{
+	width: 1800px;
+	height: 3000px;
+ 	position: relative;
+ 	margin-top: -500px;
+	margin-left: 70px;
+}
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
+#ia {
+	width: 25px;
+	height: 105px;
+	margin-top: 600px;
+	margin-left: 500px;
+	float: left;
+	position: absolute;
+	transform: rotate(60deg);
+}
+#ka {
+	width: 65px;
+	height: 105px;
+	margin-top: 1200px;
+	margin-left: 300px;
+	float: left;
+	position: absolute;
+	transform: rotate(-50deg) scale(2);
+}
+
+#aa {
+	width: 25px;
+	height: 105px;
+	margin-top: 1000px;
+	margin-left: 500px;
+	float: left;
+	position: absolute;
+	transform: rotate(-20deg);
+}
+#da {
+	width: 25px;
+	height: 105px;
+	margin-top: 1600px;
+	margin-left: 700px;
+	float: left;
+	position: absolute;
+	transform: rotate(70deg) scale(3);
+}
+
 
 .one {
 	width: 4px;
 	height: 113px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(20deg);
 }
@@ -261,111 +481,127 @@ h1,p,h2{
 .two {
 	width: 4px;
 	height: 105px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 }
 
 .three {
 	width: 4px;
 	height: 50px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(-405deg);
+	
 }
 
 .four {
 	width: 4px;
 	height: 50px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(405deg);
+	
 }
 .five {
 	width: 4px;
 	height: 26px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(90deg);
+	
 }
 .six {
 	width: 4px;
 	height: 74px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(-405deg);
+	
 }
 .seven {
 	width: 4px;
 	height: 74px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(405deg);
+	
 }
 .eight {
 	width: 4px;
 	height: 25px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(110deg);
+	
 }
 .nine {
 	width: 4px;
 	height: 25px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(70deg);
+	
 }
 .ten {
 	width: 4px;
 	height: 14px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(90deg);
+	
 }
 .eleven {
 	width: 4px;
 	height: 45px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(90deg);
+	
 }
 .twelve {
 	width: 4px;
 	height: 20px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
+	
 }
 .thirteen {
 	width: 4px;
 	height: 25px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(65deg);
+	
 }
 .fourteen {
 	width: 4px;
 	height: 25px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(120deg);
+	
 }
 .fifteen {
 	width: 4px;
 	height: 70px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(90deg);
+	
 }
 .sixteen {
 	width: 4px;
 	height: 70px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
+	
 }
 .seventeen {
 	width: 4px;
 	height: 113px;
-	background: black;
+	background: #4F4154;
 	position: absolute;
 	transform: rotate(160deg);
+	
 }
+
