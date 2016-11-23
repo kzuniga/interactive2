@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: white;
+	position: relative;
+}
+.upper {
+	width: 100px;
+	height: 100px;
+	background: black
+}
+.lower {
+	width: 100px;
+	height: 100px;
+	background: black;
+}

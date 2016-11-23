@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 500vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: white;
+	position: relative;
+}
+
+p {
+	text-align: center;
+}
+#textbox {
+	width: 500px;
+	height: 80px;
+	position: absolute;
+	top: 50px;
+	left: 380px;
+
+}
