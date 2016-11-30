@@ -3,25 +3,76 @@
 }
 
 body {
-	background: black;
+	background: white;
 }
 
 .canvas {
-	width: 500vw;
+	width: 100vw;
 	height: 100vh;
-	margin: 0px auto;
+	margin-top: 0px;
 	background: white;
 	position: relative;
 }
 
-p {
-	text-align: center;
-}
-#textbox {
-	width: 500px;
-	height: 80px;
+ #logo {
+	left: 600px;
+	top: 140px;
 	position: absolute;
-	top: 50px;
-	left: 380px;
+	z-index: 1;
+}
+#backimage {
+	top: -10px;
+	position: absolute;
+	z-index: 0;
 
 }
+.scrolltext {
+	position: absolute;
+	top: 350px;
+	left: 530px;
+	z-index: 1;
+	color: black;
+	background-color: transparent;
+
+}
+#welcome {
+	width: 380px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	left: 250px;
+	z-index: 1;
+	color: white;
+	text-align: left;
+}
+
+.fade {
+    height: 300px;
+    width: 300px;
+    background-color: #d15757;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left:200px;
+}
+a {
+	width: 90px;
+	height: 150px;
+	top: 200px;
+	right: -70px;
+	position: absolute;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
