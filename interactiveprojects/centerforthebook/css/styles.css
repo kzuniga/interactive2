@@ -65,8 +65,7 @@ a {
 	height: 150px;
 	top: 200px;
 	right: -70px;
-	position: absolute;
-	display: block;
+
 }
 
 
@@ -134,8 +133,8 @@ a {
 	height: 50px;
 	position: absolute;
 	transform: rotate(56deg);
-	right: -100px;
-	top: 92px;
+	right: 40px;
+	top: 215px;
 }
 #tools20{
 	position: absolute;
