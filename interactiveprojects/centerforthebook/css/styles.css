@@ -4,35 +4,39 @@
 
 body {
 	background: white;
+	width: 100%;
+	overflow: hidden;
 }
 
 .canvas {
-	width: 100vw;
+	/*width: 100vw;*/
 	height: 100vh;
-	margin-top: 0px;
-	background: white;
+	margin-top: -10px;
+	margin-left: -10px;
 	position: relative;
 }
 
  #logo {
-	left: 600px;
-	top: 140px;
+ 	top: 160px;
+	left: 545px;
 	position: absolute;
 	z-index: 1;
 }
 #backimage {
-	top: -10px;
+	top: -20px;
+	left: -40px;
 	position: absolute;
 	z-index: 0;
 
 }
 .scrolltext {
 	position: absolute;
-	top: 350px;
-	left: 530px;
+	top: 370px;
+	left: 463px;
 	z-index: 1;
 	color: black;
 	background-color: transparent;
+	text-align: center;
 
 }
 #welcome {
@@ -66,8 +70,85 @@ a {
 }
 
 
+#imageover{
+	position: absolute;
+	transform: rotate(20deg);
+	left: 555px;
+	top: -322px;
+	background-color: cornflowerblue;
+}
 
+#imageover2{
+	position: absolute;
+	transform: rotate(10deg);
+	left: 608px;
+	top: -350px;
+}
+#tools3{
 
+	position: absolute;
+	transform: rotate(16deg);
+	left: 655px;
+	top: -340px;
+}
+#tools4{
+	position: absolute;
+	transform: rotate(17deg);
+	right: 414px;
+	top: -11px;
+
+}
+#tools5{
+	position: absolute;
+	transform: rotate(25deg);
+	right: 350px;
+	top: -80px;
+}
+#tools6{
+	position: absolute;
+	transform: rotate(27deg);
+	right: 207px;
+	top: -208px;
+}
+#tools7{
+	position: absolute;
+	transform: rotate(28deg);
+	right: 103px;
+	top: -242px;
+}
+#tools8{
+	position: absolute;
+	transform: rotate(32deg);
+	right: 115px;
+	top: 0px;
+}
+#tools9{
+	position: absolute;
+	transform: rotate(46deg);
+	right: 71px;
+	top: 85px;
+}
+
+#imageover10{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	transform: rotate(56deg);
+	right: -100px;
+	top: 92px;
+}
+#tools20{
+	position: absolute;
+	transform: rotate(25deg);
+	right: 535px;
+	top: -100px;
+}
+#tools21{
+	position: absolute;
+	transform: rotate(25deg);
+	right: 490px;
+	top: -82px;
+}
 
 
 
